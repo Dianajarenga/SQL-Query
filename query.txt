@@ -3,7 +3,7 @@ ANSWERS
 SELECT * FROM Students;
 SELECT  name,marks FROM Students;
 SELECT  DISTINCT town FROM Students;
-SELECT  WHERE Student FROM town="Ruiru";
+SELECT  name WHERE Student FROM town="Ruiru";
 SELECT  name FROM Student WHERE marks>85;
 SELECT  name,marks FROM Student ORDER BY name, marks  ASC;
 SELECT  name FROM Student WHERE marks>=80 AND town="Lodwar";
