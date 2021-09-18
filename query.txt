@@ -1,0 +1,41 @@
+ANSWERS
+
+SELECT * FROM Students;
+SELECT  name,marks FROM Students;
+SELECT  DISTINCT town FROM Students;
+SELECT  WHERE Student FROM town="Ruiru";
+SELECT  name FROM Student WHERE marks>85;
+SELECT  name,marks FROM Student ORDER BY name, marks  ASC;
+SELECT  name FROM Student WHERE marks>=80 AND town="Lodwar";
+SELECT  name FROM Student WHERE marks>70 AND NOT town="Nairobi";
+SELECT * FROM Student ORDER BY name ASC;
+SELECT  name FROM Student WHERE town="Nairobi"70 OR marks>80;
+
+
+
+
+
+
+
+
+
+
+
+
+QUESTIONS
+
+Write a query to obtain all the records from the above table
+Write a query to obtain the names and marks of all the students
+Write a query to return all the unique towns from the table
+Write a query to obtain all the names of the students from ruiru
+Write a query to obtain all records of the students who scored over 85 marks
+Write a query to obtain the names and marks of the students in ascending
+order of marks
+Write a query to return all the students who scored over 80 marks from
+Lodwar
+Write a query to obtain the names of the students who scored above 70 marks
+outside Nairobi
+Write a query to obtain all the students records in alphabetical order of their
+names
+Write a query to obtain the names of the students who either reside in Nairobi
+ior scored above 80 marks
